@@ -1,0 +1,141 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family:'Montserrat', sans-serif;;
+}
+.container1{
+    background-image: url('sneakers.webp');
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: 100% 100%;
+    opacity: 0.8;
+    text-align: center;
+    /* border: solid red 2px; */
+    position: relative;
+}
+.container1 div{
+    font-size: 7vh;
+}
+.container1 div:nth-child(1){
+    padding: 30px;
+    color: aliceblue;
+    font-size: 10vh;
+}
+.container1 div:last-child{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: aliceblue;
+    /* border: solid red 2px; */
+}
+.container1 div:last-child span{
+    color: black;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    /* height: 50vh; */
+    justify-content: center;
+    margin: 5vh 2vw;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px gray solid;
+    margin: 5vh 3vw;
+    border-radius: 1rem;
+    box-shadow: var(--shadow);
+    background-color: aliceblue;
+}
+.flex img{
+    height: 30px;
+}
+.flex-1{
+    font-size: 20px;
+    padding: 2vh 1vw;
+    letter-spacing: 0.5px;
+    color: #5c5c3d;
+}
+.flex-2{
+    text-align: center;
+    padding: 2vh 2vw;
+}
+.container3{
+    background-image: url('laces.webp');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    /* border: solid 2px red; */
+    /* text-align: center; */
+    position: relative;
+    /* background-color: antiquewhite; */
+}
+.container3 div:nth-child(1){
+    position: absolute;
+    top: 7vh;
+    /* border: solid brown 2px; */
+     left: 2vw;
+    font-size: 1.4vw; 
+    /* text-align: center; */
+}
+.container3 div:nth-child(2){
+    position: absolute;
+    bottom: 5vh;
+    right:0.5vw;
+    width:50vw;
+    font-size: 1.4vw;
+}
+.container3 div span{
+    color: aliceblue;
+    font-size: 3vw; ;
+}
+.container4{
+    margin: 15vh 15vw;
+    display: grid;
+    text-align: center;
+    grid-template-rows: 48vh 48vh;
+    grid-template-columns: 35vw 35vw;
+    /* border: red solid 2px; */
+}
+.container4 div{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 2vh 1vw;
+    font-size: 1.5vw;
+    position: relative;
+}
+.container4 div:nth-child(2){
+    background-image: url('https://rukminim1.flixcart.com/image/832/832/kzpw2vk0/shoe/x/y/n/9-571-dadk-t-rock-white-black-original-imagbnqbkf62uxvd.jpeg?q=70');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.container4 div:nth-child(3){
+    background-image: url('https://rukminim1.flixcart.com/image/832/832/xif0q/shoe/w/u/l/3-774-womn-3-deals4you-blue-original-imagcgjthnf5z44y-bb.jpeg?q=70');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.container4 div span{
+    position: absolute;
+    /* border: #5c5c3d solid 2px; */
+    right: 0;
+    margin: 30px;
+    
+}
+.container4 div span a{
+    text-decoration: none;
+    color: #5c5c3d;
+    border: #5c5c3d solid 2px;
+    padding: 5px 10px;
+}
+.container4 div span a:hover{
+    color: aliceblue;
+    background-color: #5c5c3d;
+}
