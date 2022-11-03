@@ -29,22 +29,23 @@ html{
     z-index: -1;
 } */
 .container1 div{
-    font-size: 2.2rem;
+    font-size: 3rem;
     color:black;
 }
 .container1 div:nth-child(1){
     padding: 30px;
     color: aliceblue;
-    font-size: 3rem;
+    font-size: 3.9rem;
     font-weight: bold;
 }
 .container1 div:last-child{
     position: absolute;
     bottom: 0;
     width: 100%;
+    font-size: 2.4rem;
     background-color: gray;
     color: aliceblue;
-    padding: 10px 0;
+    padding: 5px 0;
     /* border: solid red 2px; */
 }
 .container1 div:last-child span{
@@ -67,7 +68,7 @@ html{
     margin: 5vh 3vw;
     border-radius: 1rem;
     box-shadow: var(--shadow);
-    background-color: aliceblue;
+    background-color: rgb(60 89 131);
 }
 .flex img{
     height: 30px;
@@ -76,7 +77,7 @@ html{
     font-size: 20px;
     padding: 2vh 1vw;
     letter-spacing: 0.5px;
-    color: #5c5c3d;
+    color: white;
 }
 .flex-2{
     text-align: center;
@@ -84,10 +85,10 @@ html{
 }
 .container3{
     background-image: url('laces.webp');
-    height: 90vh;
+    height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
     /* background-size: 100% 100%; */
     /* border: solid 2px red; */
     /* text-align: center; */
@@ -99,19 +100,19 @@ html{
     top: 7vh;
     /* border: solid brown 2px; */
      left: 2vw;
-    font-size: 1.2rem; 
+    font-size: 2.5rem; 
     /* text-align: center; */
 }
 .container3 div:nth-child(2){
     position: absolute;
-    bottom: 5vh;
+    bottom: 4vh;
     right:0.5vw;
     width:50vw;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
 }
 .container3 div span{
     color: aliceblue;
-    font-size: 3vw; ;
+    font-size: 3.5rem; ;
 }
 .container4{
     margin: 15vh 15vw;
@@ -170,7 +171,7 @@ html{
     .container1{
     background-image: url('sneakers.webp');
     background-size: cover;
-    height: 85vh;
+    height: 100vh;
     width: 100%;
     }
     .container1 div{
@@ -186,22 +187,23 @@ html{
     .container3 div:nth-child(1){
         font-size: 1.4rem;
         font-weight: bold;
+        max-width :179px; ;
     }
 
     .container3 div:nth-child(2){
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         font-weight: bold;
     }
 
     .container3 div span{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
 
     }
 
     .container4{
         /* margin: 5vh; */
         grid-template-rows: 23vh 23vh;
-
+        margin: 6vh 15vw;
         grid-template-columns: 45vw 45vw;
     }
     .container4 div {
