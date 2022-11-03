@@ -205,9 +205,10 @@ html{
         grid-template-rows: 23vh 23vh;
         margin: 6vh 15vw;
         grid-template-columns: 45vw 45vw;
+        padding: 0;
     }
     .container4 div {
-        font-size: 0.55rem;
+        font-size: 0.45rem;
     }
     
 }
